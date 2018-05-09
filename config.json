@@ -47,10 +47,13 @@
     },
     "steem_accounts": {
         "posts": [
-            "ragepeanut"
+            "ragepeanut",
+            "evildido",
+            "planetenamek"
         ],
         "resteems": [
-            "ragepeanut"
+            "ragepeanut",
+            "evildido"
         ]
     },
     "stream_nodes": [
@@ -59,5 +62,5 @@
         "https://steemd.minnowsupportproject.org"
     ],
     "tweet_retry_timeout": 10000,
-    "twitter_handle": "RagePeanut_"
+    "twitter_handle": "JohnOverSteem"
 }
