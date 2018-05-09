@@ -1,29 +1,33 @@
 {
-    "nodes": [
+    "request_nodes": [
         "https://api.steemit.com",
-        "https://rpc.steemviz.com",
         "https://gtg.steem.house:8090",
         "https://api.steem.house",
         "https://rpc.curiesteem.com"
     ],
     "settings": {
-        "allowed_links": {
-            "bescouted": true,
-            "busy": true,
-            "dlive": true,
-            "dmania": true,
-            "dsound": true,
-            "dtube": true,
-            "fundition": true,
-            "parley": true,
-            "steemhunt": true,
-            "steemkr": true,
-            "steepshot": true,
-            "utopian": true,
-            "zappl": true
+        "allowed_apps": {
+            "bescouted": 2,
+            "blockdeals": 2,
+            "busy": 2,
+            "dlive": 2,
+            "dsound": 2,
+            "dtube": 2,
+            "fundition": 2,
+            "hede": 2,
+            "memeit.lol": 2,
+            "mTasks": 2,
+            "oneplace": 2,
+            "parley": 2,
+            "steemhunt": 2,
+            "steemit": 2,
+            "steemkr": 2,
+            "steemthink": 2,
+            "steepshot": 2,
+            "utopian": 2,
+            "zappl": 2
         },
-        "include_tags": true,
-        "include_title": true,
+        "default_app": "steemit",
         "mentions": {
             "escape_starting_mention": true,
             "remove_mentions": false,
@@ -37,11 +41,23 @@
             "remove_tags_by_order": true,
             "remove_tags_by_order_opposite": false
         },
+        "template": "{{title::2}} %%by @{{author}}::1%% {{tags::3}}",
         "tweet_posts": true,
         "tweet_resteems": true
     },
-    "steem_accounts": [
-        "ragepeanut"
+    "steem_accounts": {
+        "posts": [
+            "ragepeanut"
+        ],
+        "resteems": [
+            "ragepeanut"
+        ]
+    },
+    "stream_nodes": [
+        "https://rpc.buildteam.io",
+        "https://rpc.steemviz.com",
+        "https://steemd.minnowsupportproject.org"
     ],
-    "tweet_retry_timeout": 10000
+    "tweet_retry_timeout": 10000,
+    "twitter_handle": "RagePeanut_"
 }
