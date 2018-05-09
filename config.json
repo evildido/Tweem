@@ -41,9 +41,7 @@
         "tweet_resteems": true
     },
     "steem_accounts": [
-        "evildido",
-        "ragepeanut",
-        "planetenamek"
+        "ragepeanut"
     ],
     "tweet_retry_timeout": 10000
 }
