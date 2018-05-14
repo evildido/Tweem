@@ -34,7 +34,7 @@
             "remove_mentions_at_char": false
         },
         "tags": {
-            "check_for_duplicate": true,
+            "check_for_duplicate": false,
             "limit": false,
             "remove_tags_by_length": false,
             "remove_tags_by_length_opposite": false,
